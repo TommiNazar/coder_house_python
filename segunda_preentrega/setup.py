@@ -1,4 +1,7 @@
 from setuptools import setup
+from setuptools import setup, find_packages
+
+
 
 # python setup.py sdist
 # python -m pip install setuptools
@@ -10,5 +13,7 @@ setup(
     description="segunda preentrega coder house Python",
     author="Tomas",
     author_email="tommi.nazar@gmail.com",
-    packages=["segunda_preentrega"],
+    packages=find_packages(),
+    
+    
 )
